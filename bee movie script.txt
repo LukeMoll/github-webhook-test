@@ -1,8 +1,8 @@
 According to all known laws of aviation, there is no way a 🐝 should be able to fly.
 Its wings are too small to get its fat little body off the ground.
 The 🐝, of course, flies anyway because 🐝s don't care what humans think is impossible.
-Yellow, ⬛. Yellow, ⬛. Yellow, ⬛. Yellow, ⬛.
-Ooh, ⬛ and yellow!
+🟨, ⬛. 🟨, ⬛. 🟨, ⬛. 🟨, ⬛.
+Ooh, ⬛ and 🟨!
 Let's shake it up a little.
 Barry! Breakfast is ready!
 Coming!
@@ -237,7 +237,7 @@ That's awful.
 And a reminder for you rookies, 🐝 law number one, absolutely no talking to humans!
  All right, launch positions!
 Buzz, buzz, buzz, buzz! Buzz, buzz, buzz, buzz! Buzz, buzz, buzz, buzz!
-⬛ and yellow!
+⬛ and 🟨!
 Hello!
 You ready for this, hot shot?
 Yeah. Yeah, bring it on.
@@ -272,7 +272,7 @@ See that? It's a little bit of magic.
 That's amazing. Why do we do that?
 That's pollen power. More pollen, more flowers, more nectar, more honey for us.
 Cool.
-I'm picking up a lot of bright yellow, Could be daisies, Don't we need those?
+I'm picking up a lot of bright 🟨, Could be daisies, Don't we need those?
 Copy that visual.
 Wait. One of these flowers seems to be on the move.
 Say again? You're reporting a moving flower?
@@ -886,7 +886,7 @@ You're bluffing.
 Am I?
 Surf's up, dude!
 Poo water!
-That bowl is gnarly. Except for those dirty yellow rings!
+That bowl is gnarly. Except for those dirty 🟨 rings!
 Kenneth! What are you doing?!
 You know, I don't even like honey! I don't eat it!
 We need to talk! He's just a little 🐝!
@@ -1220,7 +1220,7 @@ But let me tell you about a small job. If you do it well, it makes a big differe
 More than we realized. To us, to everyone.
 That's why I want to get 🐝s back to working together. That's the 🐝 way! We're not made of Jell-O.
 We get behind a fellow.
-⬛ and yellow!
+⬛ and 🟨!
 Hello!
 Left, right, down, hover.
 Hover?
@@ -1257,7 +1257,7 @@ Hello?
 Benson, got any flowers for a happy occasion in there?
 The Pollen Jocks!
 They do get behind a fellow.
-⬛ and yellow.
+⬛ and 🟨.
 Hello.
 All right, let's drop this tin can on the ⬛top.
 Where? I can't see anything. Can you?
