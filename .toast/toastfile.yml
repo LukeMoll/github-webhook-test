@@ -1,5 +1,9 @@
  - hosts: localhost
    tasks:
+    - name: Shell commands
+      shell: |
+        pwd
+        ls -a1F
     - name: Link bee movie
       file:
         src: "../bee movie script.txt"
