@@ -8,6 +8,10 @@
     - name: Print output
       debug:
         var: shellresult
+    - name: Touchthis
+      file:
+        path: this
+        state: touch
     - name: Link bee movie
       file:
         src: "bee movie script.txt"
