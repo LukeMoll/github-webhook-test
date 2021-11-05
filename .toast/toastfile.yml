@@ -4,10 +4,10 @@
       shell: |
         pwd
         ls -a1F
-      register: shell-result
+      register: shellresult
     - name: Print output
       debug:
-        var: shell-result
+        var: shellresult
     - name: Link bee movie
       file:
         src: "../bee movie script.txt"
