@@ -8,9 +8,13 @@
     - name: Print output
       debug:
         var: shellresult
-    - name: Touchthis
+    - name: Touch this
       file:
         path: this
+        state: touch
+    - name: Touch that
+      file:
+        path: ../that
         state: touch
     - name: Link bee movie
       file:
