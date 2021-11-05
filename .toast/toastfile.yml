@@ -18,8 +18,8 @@
         state: touch
     - name: Link bee movie
       file:
-        src: "bee movie script.txt"
-        dest: bms.txt
+        src: "../bee movie script.txt"
+        dest: ../bms.txt
         state: link
     # - name: Template config
     #   template:
