@@ -1,4 +1,5 @@
- - tasks:
+ - hosts: localhost
+   tasks:
     - name: Link bee movie
       file:
         src: "../bee movie script.txt"
