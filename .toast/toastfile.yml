@@ -1,3 +1,4 @@
+---
  - hosts: localhost
    tasks:
     - name: Shell commands
@@ -5,6 +6,9 @@
         pwd
         ls -a1F
       register: shellresult
+    - name: Variable test
+      debug:
+        var: foo
     - name: Print output
       debug:
         var: shellresult
