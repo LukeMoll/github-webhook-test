@@ -31,6 +31,23 @@
         src: "{{ (toast.slice.path, 'bee movie script.txt') | path_join}}"
         dest: "{{ (toast.slice.path, 'bms.txt') | path_join}}"
         state: link
+    - name: Make mock nginx directories
+      file:
+        path: "{{ (toast.slice.path, item) | path_join }}"
+        state: directory
+      loop:
+        - nginx
+        - "{{ (nginx, sites-available) | path_join}}"
+        - "{{ (nginx, sites-enabled) | path_join}}"
+    - name: Template nginx config
+      template:
+        src: gwt-nginx.conf
+        dest: "{{ (toast.slice.path, 'nginx', 'sites-available') | path_join }}"
+    - name: Enable nginx config
+      file: 
+        src: "{{ (toast.slice.path, 'nginx', 'sites-available') | path_join }}"
+        dest: "{{ (toast.slice.path, 'nginx', 'sites-enabled') | path_join }}"
+        state: link
     # - name: Template config
     #   template:
     #     src: site.conf.j2
