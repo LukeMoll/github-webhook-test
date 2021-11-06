@@ -8,7 +8,10 @@
       register: shellresult
     - name: Variable test
       debug:
-        var: foo
+        var: toast
+    - name: Variable test 2
+      debug:
+        var: toast.slice.path
     - name: Print output
       debug:
         var: shellresult
