@@ -37,8 +37,8 @@
         state: directory
       loop:
         - nginx
-        - "{{ (nginx, sites-available) | path_join}}"
-        - "{{ (nginx, sites-enabled) | path_join}}"
+        - "{{ ('nginx', 'sites-available') | path_join}}"
+        - "{{ ('nginx', 'sites-enabled') | path_join}}"
     - name: Template nginx config
       template:
         src: gwt-nginx.conf
