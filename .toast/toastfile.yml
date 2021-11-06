@@ -6,12 +6,15 @@
         pwd
         ls -a1F
       register: shellresult
-    - name: Variable test
+    - name: Variable test 1
       debug:
         var: toast
     - name: Variable test 2
       debug:
-        var: toast.slice.path
+        var: toast.vars.foo
+    - name: Variable test 3
+      debug:
+        var: toast.slice.foo
     - name: Print output
       debug:
         var: shellresult
