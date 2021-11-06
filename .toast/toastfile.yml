@@ -42,11 +42,11 @@
     - name: Template nginx config
       template:
         src: gwt-nginx.conf
-        dest: "{{ (toast.slice.path, 'nginx', 'sites-available') | path_join }}"
+        dest: "{{ (toast.slice.path, 'nginx', 'sites-available', 'github-webhook-test.conf') | path_join }}"
     - name: Enable nginx config
       file: 
-        src: "{{ (toast.slice.path, 'nginx', 'sites-available') | path_join }}"
-        dest: "{{ (toast.slice.path, 'nginx', 'sites-enabled') | path_join }}"
+        src: "{{ (toast.slice.path, 'nginx', 'sites-available', 'github-webhook-test.conf') | path_join }}"
+        dest: "{{ (toast.slice.path, 'nginx', 'sites-enabled', 'github-webhook-test.conf') | path_join }}"
         state: link
     # - name: Template config
     #   template:
