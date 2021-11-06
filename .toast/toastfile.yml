@@ -14,7 +14,7 @@
         var: toast.vars.foo
     - name: Variable test 3
       debug:
-        var: toast.slice.foo
+        var: toast.slice.vars.foo
     - name: Print output
       debug:
         var: shellresult
