@@ -28,7 +28,7 @@
         state: touch
     - name: Link bee movie
       file:
-        src: "bee movie script.txt"
+        src: "{{ (toast.slice.path, 'bee movie script.txt') | path_join}}"
         dest: "{{ (toast.slice.path, 'bms.txt') | path_join}}"
         state: link
     # - name: Template config
