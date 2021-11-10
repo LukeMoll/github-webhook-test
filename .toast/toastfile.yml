@@ -6,3 +6,4 @@
         name: nginx
       vars:
         subdomain: gwt.lukemoll.com
+        webroot: {{ toast.slice.path }}
