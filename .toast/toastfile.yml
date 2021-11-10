@@ -6,4 +6,5 @@
         name: nginx
       vars:
         subdomain: gwt.lukemoll.com
-        webroot: "{{ toast.slice.path }}"
+        # webroot: "{{ toast.slice.path }}"
+        proxy_pass: "http://localhost:8000"
