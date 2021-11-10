@@ -6,4 +6,3 @@
         name: nginx
       vars:
         subdomain: gwt.lukemoll.com
-        subpath: gwt
