@@ -1,53 +1,8 @@
 ---
  - hosts: localhost
    tasks:
-    - name: Test importing roles
+    - name: Nginx role
       include_role:
-        name: helloworld
-    # - name: Shell commands
-    #   shell: |
-    #     pwd
-    #     ls -a1F
-    #   register: shellresult
-    # - name: Variable test 1
-    #   debug:
-    #     var: toast
-    # - name: Variable test 2
-    #   debug:
-    #     var: toast.vars.foo
-    # - name: Variable test 3
-    #   debug:
-    #     var: toast.slice.vars.foo
-    # - name: Print output
-    #   debug:
-    #     var: shellresult
-    # - name: Touch this
-    #   file:
-    #     path: this
-    #     state: touch
-    # - name: Touch that
-    #   file:
-    #     path: "{{ (toast.slice.path, 'that') | path_join}}"
-    #     state: touch
-    # - name: Link bee movie
-    #   file:
-    #     src: "{{ (toast.slice.path, 'bee movie script.txt') | path_join}}"
-    #     dest: "{{ (toast.slice.path, 'bms.txt') | path_join}}"
-    #     state: link
-    # - name: Make mock nginx directories
-    #   file:
-    #     path: "{{ (toast.slice.path, item) | path_join }}"
-    #     state: directory
-    #   loop:
-    #     - nginx
-    #     - "{{ ('nginx', 'sites-available') | path_join}}"
-    #     - "{{ ('nginx', 'sites-enabled') | path_join}}"
-    # - name: Template nginx config
-    #   template:
-    #     src: gwt-nginx.conf
-    #     dest: "{{ (toast.slice.path, 'nginx', 'sites-available', 'github-webhook-test.conf') | path_join }}"
-    # - name: Enable nginx config
-    #   file: 
-    #     src: "{{ (toast.slice.path, 'nginx', 'sites-available', 'github-webhook-test.conf') | path_join }}"
-    #     dest: "{{ (toast.slice.path, 'nginx', 'sites-enabled', 'github-webhook-test.conf') | path_join }}"
-    #     state: link
+        name: nginx
+      vars:
+        subdomain: gwt.lukemoll.com
